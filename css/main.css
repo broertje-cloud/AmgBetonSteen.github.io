@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -2176,6 +2176,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 120px 0;
 }
 
+.section-gap-footer {
+  padding: 10px 0;
+}
+
 .section-title {
   padding-bottom: 30px;
 }
@@ -2751,6 +2755,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area .footer-bottom {
   padding-top: 40px;
+}
+
+.footer-area .footer-contact {
+  padding-top: 10px;
 }
 
 .footer-area .footer-bottom a {
