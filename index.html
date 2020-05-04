@@ -326,7 +326,56 @@
 				</div>
 			</section>
 			<!-- End service Area -->
+			<!-- Slideshow container -->
+	<div class="slideshow-container">
 
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 5</div>
+	  	<img src="img/amgzand.jpg" style="width:100%">
+	  <div class="text">Caption Text</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 5</div>
+	  	<img src="img/amgtruk.jpg" style="width:100%">
+	  <div class="text"></div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 5</div>
+	  	<img src="img/amgtruk2.jpg" style="width:100%">
+	  <div class="text"></div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 5</div>
+			<img src="img/amgzand2.jpg" style="width:100%">
+		<div class="text"></div>
+	  </div>
+	  
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 5</div>
+			<img src="img/amgzandpak.jpg" style="width:100%">
+		<div class="text"></div>
+	  </div>
+	
+  <script>
+	 var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+  </script>
 
 			<!-- Start testimonial Area -->
 			<!-- <section class="testimonial-area relative section-gap">
